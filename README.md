@@ -19,8 +19,43 @@ A simple API to manage a restaurant menu! 🚀
 
 4. **Use Postman** or `curl` to test the API! 🛠️
 
+
 ---
 
+## 📚 Using Postman
+
+### 📂 **1. Get Menu Items (GET)**
+- **Method:** `GET`
+- **URL:** `http://localhost:3001/menu`
+
+### ⛔ **2. Mark an Item as Unavailable (PUT)**
+- **Method:** `PUT`
+- **URL:** `http://localhost:3001/menu/3`
+- **Body (raw, JSON format):**
+  ```json
+  {
+    "available": false
+  }
+  ```
+
+### ➕ **3. Add a New Menu Item (POST)**
+- **Method:** `POST`
+- **URL:** `http://localhost:3001/menu`
+- **Body (raw, JSON format):**
+  ```json
+  {
+    "name": "Dat Special",
+    "description": "Mozzarella Sticks 🧀",
+    "price": 8.99,
+    "available": true
+  }
+  ```
+
+### 🛢️ **4. Delete a Menu Item (DELETE)**
+- **Method:** `DELETE`
+- **URL:** `http://localhost:3001/menu/3`
+
+---
 ## 📚 CURL API Endpoints
 
 ### 📝 Get the Menu
@@ -66,41 +101,6 @@ curl -X DELETE http://localhost:3001/menu/3
 ```
 **Response:** Confirmation of deletion.
 
----
 
-## 📚 Using Postman
-
-### 📂 **1. Get Menu Items (GET)**
-- **Method:** `GET`
-- **URL:** `http://localhost:3001/menu`
-
-### ⛔ **2. Mark an Item as Unavailable (PUT)**
-- **Method:** `PUT`
-- **URL:** `http://localhost:3001/menu/3`
-- **Body (raw, JSON format):**
-  ```json
-  {
-    "available": false
-  }
-  ```
-
-### ➕ **3. Add a New Menu Item (POST)**
-- **Method:** `POST`
-- **URL:** `http://localhost:3001/menu`
-- **Body (raw, JSON format):**
-  ```json
-  {
-    "name": "Dat Special",
-    "description": "Mozzarella Sticks 🧀",
-    "price": 8.99,
-    "available": true
-  }
-  ```
-
-### 🛢️ **4. Delete a Menu Item (DELETE)**
-- **Method:** `DELETE`
-- **URL:** `http://localhost:3001/menu/3`
-
----
 
 🎉 Now you're all set to manage your menu with this API! Happy coding! 😃
