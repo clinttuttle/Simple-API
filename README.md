@@ -21,7 +21,7 @@ A simple API to manage a restaurant menu! 🚀
 
 ---
 
-## 📖 API Endpoints
+## 📖 API Endpoints for cURL!
 
 ### 📜 Get the Menu
 **GET** all menu items:
