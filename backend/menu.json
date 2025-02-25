@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Tuttle Special",
+    "description": "Pepperoni Pizza 🍕",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "2",
+    "name": "Bevo Special",
+    "description": "Ribeye Steak 🥩",
+    "price": 24.99,
+    "available": true
+  },
+  {
+    "id": "3",
+    "name": "Paddington Special",
+    "description": "Marmalade Sandwich 🥪",
+    "price": 6.99,
+    "available": true
+  }
+]
