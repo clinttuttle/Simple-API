@@ -21,7 +21,7 @@ A simple API to manage a restaurant menu! 🚀
 
 ---
 
-## 📚 API Endpoints
+## 📚 CURL API Endpoints
 
 ### 📝 Get the Menu
 **GET** all menu items:
@@ -78,12 +78,6 @@ curl -X DELETE http://localhost:3001/menu/3
 ### ⛔ **2. Mark an Item as Unavailable (PUT)**
 - **Method:** `PUT`
 - **URL:** `http://localhost:3001/menu/3`
-- **Headers:**
-  ```json
-  {
-    "Content-Type": "application/json"
-  }
-  ```
 - **Body (raw, JSON format):**
   ```json
   {
@@ -94,12 +88,6 @@ curl -X DELETE http://localhost:3001/menu/3
 ### ➕ **3. Add a New Menu Item (POST)**
 - **Method:** `POST`
 - **URL:** `http://localhost:3001/menu`
-- **Headers:**
-  ```json
-  {
-    "Content-Type": "application/json"
-  }
-  ```
 - **Body (raw, JSON format):**
   ```json
   {
