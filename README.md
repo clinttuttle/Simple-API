@@ -35,8 +35,8 @@ curl -X GET http://localhost:3001/menu
 ### ⛔ Mark an Item as Unavailable
 **PUT** request to update availability:
 ```sh
-curl -X PUT http://localhost:3001/menu/3 \  
-  -H "Content-Type: application/json" \  
+curl -X PUT http://localhost:3001/menu/3 \
+  -H "Content-Type: application/json" \
   -d '{"available": false}'
 ```
 **Response:** Updated item data.
@@ -46,8 +46,8 @@ curl -X PUT http://localhost:3001/menu/3 \
 ### ➕ Add a New Menu Item
 **POST** request:
 ```sh
-curl -X POST http://localhost:3001/menu \  
-  -H "Content-Type: application/json" \  
+curl -X POST http://localhost:3001/menu \
+  -H "Content-Type: application/json" \
   -d '{
     "name": "Dat Special",
     "description": "Mozzarella Sticks 🧀",
