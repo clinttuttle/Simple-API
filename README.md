@@ -73,7 +73,6 @@ curl -X DELETE http://localhost:3001/menu/3
 ### 📂 **1. Get Menu Items (GET)**
 - **Method:** `GET`
 - **URL:** `http://localhost:3001/menu`
-- **Headers:** _(None required)_
 
 ### ⛔ **2. Mark an Item as Unavailable (PUT)**
 - **Method:** `PUT`
@@ -101,7 +100,6 @@ curl -X DELETE http://localhost:3001/menu/3
 ### 🛢️ **4. Delete a Menu Item (DELETE)**
 - **Method:** `DELETE`
 - **URL:** `http://localhost:3001/menu/3`
-- **Headers:** _(None required)_
 
 ---
 
