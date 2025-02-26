@@ -10,7 +10,7 @@ A simple API to manage a restaurant menu! 🚀
    ```
 2. **Navigate to the backend** 📁:
    ```sh
-   cd backend
+   cd Simple-API/backend
    ```
 3. **Start the server** ▶️:
    ```sh
