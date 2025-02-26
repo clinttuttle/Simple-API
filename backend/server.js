@@ -59,8 +59,8 @@ app.post('/menu', (req, res) => {
 // PUT - Update a menu item
 app.put('/menu/:id', (req, res) => {
   const menu = readMenu();
-  const id = parseInt(req.params.id); // Convert ID to integer
-  const itemIndex = menu.findIndex(item => item.id === id);
+  const id = req.params.id; 
+  const itemIndex = menu.findIndex(item => item.id === id); 
 
   if (itemIndex === -1) {
     return res.status(STATUS.NOT_FOUND).json({ error: 'Item not found' });

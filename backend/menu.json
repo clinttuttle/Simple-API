@@ -11,7 +11,7 @@
     "name": "Bevo Special",
     "description": "Ribeye Steak 🥩",
     "price": 24.99,
-    "available": true
+    "available": false
   },
   {
     "id": "3",
