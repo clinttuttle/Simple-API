@@ -43,7 +43,7 @@ app.post('/menu', (req, res) => {
   }
 
   const menu = readMenu();
-  const nextId = menu.length + 1; 
+  const nextId = String(menu.length + 1); 
   const newItem = {
     id: nextId,
     name,
